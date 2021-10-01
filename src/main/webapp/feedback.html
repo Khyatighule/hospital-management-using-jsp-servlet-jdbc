@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Feedback</title> 
+        <style>
+              .borders {
+   border: 2px solid black;  
+}
+label {
+    width: 200px;
+    display: inline-block;
+}
+</style>
+    </head>
+    <body style="background-color:lightblue;" >
+<h1 style="background-color:DodgerBlue;" align="center"> Form to Share Feedback/Complaint</h1>
+      <div style="padding:100px; padding-left: 100px; padding-right: 100px;" align="center" class="borders">
+
+        <form action="feedback" method="post">
+                    
+       <label for="Name">Name:</label>
+        <input type="text" name="Name"/></br></br>
+    
+        <label for="Patient_id">Patient id:</label>
+        <input type="password" name="Patient_id"/></br></br>
+        
+        <label for="Feedback">Feedback:</label>
+        <input type="text" name="Feedback"/></br></br>
+        
+        <label for="Date">Date:</label>
+        <input type="text" name="Date"/></br></br>
+       
+   <input type="submit"/> <br><br>
+   
+      </div>
+<footer>
+  <p>Logout<br>
+  <a href="patientlogout"><b> Logout </b></a></p>
+</footer>
+    </body>
+</html>

@@ -1,0 +1,210 @@
+<html>
+    <head>
+        <title>HomePage Admin</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Rampart+One&display=swap" rel="stylesheet">
+		<!-- Bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    
+    </head>
+
+        <style>
+        * { 
+        /* style="background-color: #b3ff4f;" */
+	        font-family: 'Balsamiq Sans', cursive;
+	       
+        }
+        body {
+         background-image:url("images/h1.jpg");
+         background-repeat:no-repeat;
+         background-size: cover;
+          background-position: fixed;
+         
+        }
+        h2{
+       		color: #fff;
+       		font-size: 50px;
+        }
+		img {
+		    border: 5px solid black;
+		}
+		.img-wrappper {
+		   text-align: center; 
+		}
+		.borders {
+		   border: 2px solid black;  
+		}
+		footer{
+			background-color:grey;
+			color:#fff;
+			text-align:center;
+			padding-top: 5px ;
+			padding-bottom: 5px ;
+			margin-top : 2rem;	
+			margin-bottom:0;
+			
+		}
+		 footer > p {
+		 	margin-left:15px;
+		 }
+		a {
+		 text-decoration:none;
+		 color: #000;
+		}
+		.header{
+		height:100px;
+		}
+</style>
+    <body>
+    
+    <div  class="homepage" style=" color:black; " align="center" >
+	<div>
+    	<h2  class="header" style="font-family: 'Rampart One', cursive; background-color:DodgerBlue;" align="center"> Admin Homepage </h2>
+    </div>
+    <br>
+
+  <a href="adminlogout">
+  <button type="button" style="width: 10rem; " float-left class=" btn btn-danger btn-hover "> Logout </button>
+  </a>
+  <br>  
+  <br>
+  <hr>
+  <table class="table registerTable table-hover" style="width: 50%">
+
+  <tbody>
+
+    <tr>
+      <th scope="row">1</th>
+      <td>Add Doctor </td>
+      <td>
+	      <a  href="doctor.html" >
+	    	<button type="button" class="btn btn-info"> <b>Click here</b> </button>
+	     </a>
+	   </td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Remove Doctor</td>
+      <td> 
+	      <a  href="removedoctor.html" >
+	  	  <button type="button" class="btn btn-info"> <b>Click here</b> </button>
+	     </a>
+     </td>
+    </tr>
+    
+    <tr>
+      <th scope="row">3</th>
+      <td>Add Hospital New Info</td>
+      <td> 
+	      <a  href="addinfo.html" >
+	  	  <button type="button" class="btn btn-info"> <b>Click here</b> </button>
+	     </a>
+     </td>
+    </tr>
+    
+      <tr>
+      <th scope="row">4</th>
+      <td>Add New Admin</td>
+      <td> 
+	      <a  href="admin.html" >
+	  	  <button type="button" class="btn btn-info"> <b>Click here</b> </button>
+	     </a>
+     </td>
+    </tr>
+    
+    <tr>
+      <th scope="row">5</th>
+      <td>Cancel Appointment</td>
+      <td> 
+	      <a  href="cancelappointment.html" >
+	  	  <button type="button" class="btn btn-info"> <b>Click here</b> </button>
+	     </a>
+     </td>
+    </tr>
+    
+    <tr>
+      <th scope="row">6</th>
+      <td>View Profile</td>
+      <td> 
+	      <a  href="viewallprofiles.html" >
+	  	  <button type="button" class="btn btn-info"> <b>Click here</b> </button>
+	     </a>
+     </td>
+    </tr>
+    
+    <tr>
+      <th scope="row">7</th>
+      <td>Check Feedback</td>
+      <td> 
+	      <a  href="viewfeedback.html" >
+	  	  <button type="button" class="btn btn-info"> <b>Click here</b> </button>
+	     </a>
+     </td>
+    </tr>
+    
+
+  </tbody>
+</table>
+  <hr />
+  
+
+</div>
+
+
+
+</form>
+<div style="width:84em">
+<footer >
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <p>Emergency Email<br>
+	 	 <a href="green_leaf_hospital@gmail.com">green_leaf_hospital@gmail.com</a>
+	  </p>
+    </div>
+    <div class="col-6">
+      <h5 style="color:#000">Designed by Khyati <span  style="color:red" >  &#10084; </span> </h5>
+    </div>
+    <div class="col">
+      <p>Emergency Contact<br>
+	 	 <a href="#">+91-1234567891</a>
+	  </p>
+    </div>
+  </div>
+  </div>
+</footer>
+</div>
+    
+    
+    
+    
+    <!--  
+    
+    
+<h1 style="background-color:DodgerBlue;" align="center"> Welcome to GreenLeaf Hospital</h1><br>
+      <div style="padding:100px; padding-left: 100px; padding-right: 100px;" align="center" class="borders">
+
+
+    <h2> <u> Admin Page </u> </h2><br><br>
+    
+    <a  href="doctor.html" ><b>  Add Doctor </b></a><br><br>
+    <a href="removedoctor.html"><b> Remove Doctor</b></a><br><br>
+       
+
+      <a href="addinfo.html"><b> Add Hospital New Info </b></a><br><br>
+      <a href="admin.html"><b> Add New Admin </b></a><br><br>
+            <a href="cancelappointment.html"><b> Cancel Appointment </b></a><br><br>
+            <a href="viewallprofiles.html"><b> View Profile </b></a><br><br>
+            <a href="viewfeedback.html"><b> Check Feedback </b></a><br><br><br><br>
+
+        </div>
+<footer>
+  <p>Logout<br>
+  <a href="adminlogout"><b> Logout </b></a></p>
+</footer>
+
+-->
+
+    </body>
+</html>
